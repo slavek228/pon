@@ -5,25 +5,81 @@
 
     <title>Document</title>
     <style>
+        .header{
+            background-color: black;
+        }
+        .header2{
+            background-color: black;
+            height: 20px;
+        }
+        .photos{
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            width:500px;
+            
+        }
+        .flex2{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 68px;
+        }
+        .texts{
+            color: white;
+            font-size: 12 px;
+        }
+        .link{
+            text-decoration: none;
+            color: white;
+            margin:0px;
+        }
+        .imgs{
+            width: 20px;
+            margin-right: 15px;
+            
+            
+        }
+        
+        .logo__link{
+            text-decoration: none;
+            text-transform: uppercase;
+            color: #f89513;
+            font-size: 18px;
+        }
+        .main2{
+            width: 2000px;
+            margin: auto;
+            height: 68px;
+        }
         .container{
             width: 92%;
           
             margin: auto;
            
-       
-            
-            
-        }
+       }
+       .flex{
+            display: flex;
+            align-items:center ;
+            justify-content: space-around;
+            }
+            .list3{
+                display: flex;
+                list-style: none;
+              
+            }
         .main{
             
             list-style: none;
             display: flex;
-            justify-content: space-around;
+            justify-content: space-between;
             flex-wrap: wrap;
             
-            
-            
-        }
+            }
+         
         .little{
         margin-top: 10px;
         color: black;
@@ -35,12 +91,374 @@
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         }
         .image{
+            
             width: 340px;
-            height: 190px;
+            background-size: cover; 
             margin-top: 10px;
             position: relative;
-            filter: brightness(40%)
+            background-image: url(sport.jpg);
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            background-repeat: no-repeat;
+            height: 200px; 
+    }
+    .image::after{
+        content: "";
+            display: block;
+            position: absolute;
+            top: 0;  
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgb(0,0,0,0.5);
+    }
+    .image2{
+            
+            width: 340px;
+            background-size: cover; 
+            margin-top: 10px;
+            position: relative;
+            background-image: url(apple.jpg);
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            background-repeat: no-repeat;
+            height: 200px; 
+    }
+    .image2::after{
+        content: "";
+            display: block;
+            position: absolute;
+            top: 0;  
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgb(0,0,0,0.5);
+    }
+    .image3{
+            
+            width: 340px;
+            background-size: cover; 
+            margin-top: 10px;
+            position: relative;
+            background-image: url(yoga.jpg);
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            background-repeat: no-repeat;
+            height: 200px; 
+    }
+    .image3::after{
+        content: "";
+            display: block;
+            position: absolute;
+            top: 0;  
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgb(0,0,0,0.5);
+    }
+    .image4{
+            
+            width: 340px;
+            background-size: cover; 
+            margin-top: 10px;
+            position: relative;
+            background-image: url(trx.jpg);
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            background-repeat: no-repeat;
+            height: 200px; 
+    }
+    .image4::after{
+        content: "";
+            display: block;
+            position: absolute;
+            top: 0;  
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgb(0,0,0,0.5);
+    }
+    .image5{
+            
+            width: 340px;
+            background-size: cover; 
+            margin-top: 10px;
+            position: relative;
+            background-image: url(woman.jpg);
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            background-repeat: no-repeat;
+            height: 200px; 
+    }
+    .image5::after{
+            content: "";
+            display: block;
+            position: absolute;
+            top: 0;  
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgb(0,0,0,0.5);
+    }
+    .image6{
+            
+            width: 340px;
+            background-size: cover; 
+            margin-top: 10px;
+            position: relative;
+            background-image: url(swim.jpg);
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            background-repeat: no-repeat;
+            height: 200px; 
+    }
+    .image6::after{
+            content: "";
+            display: block;
+            position: absolute;
+            top: 0;  
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgb(0,0,0,0.5);
+    }
+    
+        .tel {
+            color: rgb(208,208,208);
+            font-size: 17px;
         }
+        .active {
+            border-bottom: 1px solid #f89513;
+            width: 70px;
+        }
+        .schedule {
+            color: #f89513;
+            font-size: 10px;
+        }
+        .list_items{
+            margin-right: 10px;
+        }
+        .li{
+        color: black;
+        text-decoration: none;
+        }
+        .list_items2::after{
+            content: "/";
+            
+            
+            
+        }
+      
+        .li2{
+        
+        color: #f89513;
+        text-decoration: underline;
+
+        }
+        .photos_block{
+            margin: auto;
+            flex-wrap: wrap;
+            
+            
+            
+        }
+        .block_img{
+            display: flex;
+            list-style: none;
+            align-items: center;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            
+        }
+        .blockul{
+            display: block;
+        }
+        .photos_img{
+            width: 200px;
+        }
+        .photos_img2{
+            width: 150px;
+        }
+        .photos_img3{
+            width: 120px;
+            height: 120px;
+        }
+        .photos_img4{
+            width: 150px;
+        }
+        .header2{
+            background-color: black;
+          
+            height: 100px;
+        }
+        .logotext{
+            color: white;
+            font-size: 15px;
+          
+            
+           
+        }
+      
+        .fleximage{
+            list-style: none;
+            color: #f89513;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 150px;
+            
+            
+        }
+        .href{
+            text-decoration: none;
+            width: 62px;
+            background-size: cover; 
+            position: relative;
+            background-image: url(pon.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 38px; 
+       
+        }
+        .href2{
+            text-decoration: none;
+            width: 62px;
+            background-size: cover; 
+            position: relative;
+            background-image: url(pon1.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 38px; 
+       
+        }
+        .href3{
+            text-decoration: none;
+            width: 62px;
+            background-size: cover; 
+            position: relative;
+            background-image: url(pon3.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 38px; 
+       
+        }
+        .href4{
+            text-decoration: none;
+            width: 50px;
+            background-size: cover; 
+            position: relative;
+            background-image: url(pon4.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 38px; 
+       
+        }
+        .href5{
+            text-decoration: none;
+            width: 62px;
+            background-size: cover; 
+            position: relative;
+            background-image: url(pon.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 38px; 
+       
+        }
+        .flexhref{
+            width: 44px;
+            height: 35px;
+            background-color: gray;
+            border-radius: 50px;
+            margin-right: 10px;
+            position: relative;
+        }
+        .a{
+            text-decoration: none;
+            width: 39px;
+            background-size: cover;
+            position: absolute;
+            background-image: url(pon.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 24px;
+            left: 0px;
+            top: 5px;
+
+       
+        }
+        .a2{
+            text-decoration: none;
+            width: 35px;
+            background-size: cover;
+            position: absolute;
+            background-image: url(pon1.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 24px;
+            left: 3px;
+            top: 5px;
+        }
+        .a3{
+            text-decoration: none;
+            width: 35px;
+            background-size: cover;
+            position: absolute;
+            background-image: url(pon4.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 24px;
+            left: 3px;
+            top: 5px;
+        }
+        .a4{
+            text-decoration: none;
+            width: 10px;
+            background-size: cover;
+            position: absolute;
+            background-image: url(pon3.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 22px;
+            left: 16px;
+            top: 5px;
+        }
+       .a5{ 
+        text-decoration: none;
+            width: 31px;
+            background-size: cover;
+            position: absolute;
+            background-image: url(pon2.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 17px;
+            left: 3px;
+            top: 9px;
+       }
+       .flexhref:hover{
+        background-color: #f89513;
+       }
+     
+
+ 
+   
+
+            image:after{
+                        content: "";
+                        display: block;
+                        position: absolute;
+                        top: 0;  
+                        bottom: 0;
+                        left: 0;
+                        right: 0;
+                        background-color: rgb(0,0,0,0.5);
+            }
+     
         
         @media (max-width:1500px){
            
@@ -48,9 +466,9 @@
 
    
           .main{
-            width: 70%;
-            flex-wrap: wrap ;
-            align-items: center;
+           flex-direction: column;
+           align-items: center;
+
               
           }
       }
@@ -61,61 +479,157 @@
          
         
           .main{
-            width: 30%;
+            
             align-items: center;
             justify-content: space-around;
-            flex-wrap: wrap;
+            flex-direction: reverse;
+           
           }
-          .image::after{
-            content: "";
-            display: block;
-            position: absolute;
-            top: 0;  
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background-color: rgb(0,0,0,1);
+
 
           }
+
      
-      }
+    
     </style>
 </head>
-<body>
-    <div class="container">
+ <header class="header">
+    
+    <div class="main2 flex">
+        <div class="logo">
+            <a href="" class="logo__link">Афродита</a>
+        </div>
+        <ul class="photos">
+            <li class="lists2">
+                <img src="mail.png" alt="" class="imgs">
+                <a href="" class="link">Главная</a>
+            </li>
+            <li class="lists2">
+                <img src="mail.png" alt="" class="imgs">
+                <a href="" class="link">Главная</a>
+            </li>
+            <li class="lists2">
+                <img src="mail.png" alt="" class="imgs">
+                <a href="" class="link">Главная</a>
+            </li>
+        </ul>
+        <div class="work">
+            <div class="tel">8 (800) 00-392-10</div>
+            <div class="schedule active">График работы</div>
+        </div>
+    </div>
+   </header>
+   <div class="container_main">
+    <ul class="list3">
+        <li class="list_items2">
+            <a href="" class="li li2">Главная</a>
+        </li>
+        <li class="list_items">Услуги</li>
+    </ul>
+</div>
+    <div class="container ">
         <h1>УСЛУГИ</h1>
         <ul class="main">
             <li class="lists">
-                <img src="sport.jpg" alt="" class="image">
+                <div class="image"></div>
                 <div class="little">Фитнесс</div>
                 <div class="text">Фитнес - это основное направление в нашем центре. Открыто 6 залов для занятий с 7-00 до 22-00. Работают 24 фитнес-тренера, есть авторские и классические программы для похудения, восстановления фигуры, здоровья и молодости. Занятия с персональным тренером помогут достичь максимального результата в сжатые сроки.</div>
             </li>
             <li class="lists">
-                 <img src="apple.jpg" alt="" class="image">
+                <div class="image2"></div>
                 <div class="little">Личный диетолог</div>
                 <div class="text">Поможет вам получить более заметный результат от тренировок. Создаст меню на каждый день, с учетом вкусовых предпочтений и особенностей здоровья. Проанализирует текущий рацион и укажет на ошибки. Поможет сделать питание разнообразным и полезным, объяснит доступно о важной роли тех или иных витаминов и микроэлементов.</div>
             </li>
             <li class="lists">
-                <img src="yoga.jpg" alt="" class="image">
+                <div class="image3"></div>
                 <div class="little">Йога</div>
                 <div class="text">Гармония души и тела – это базовая составляющая здоровья и красоты. Наш зал для занятий йоги открыт для людей всех возрастов без ограничений. Отдельным направлением является йога для беременных с более щадящей программой. Йога тренеры имеют сертификаты и являются победителями международных конкурсов..</div>
             </li>
             <li class="lists">
-                <img src="trx.jpg" alt="" class="image">
+                <div class="image4"></div>
                 <div class="little">Петли ТРХ</div>
                 <div class="text">Новое направление для нашего центра, которое стало одним из самых популярных и востребованных. Программа TRX Suspension Training создана для людей с начальным уровнем подготовки и позволяет эффективно тренироваться, используя нарастающую нагрузку, которая зависит от силы и массы человека. Петли усиливают ловкость, гибкость и подвижность. В нашем центре проводятся индивидуальные и групповые тренировки ТРХ.</div>
             </li>
             <li class="lists">
-                <img src="woman.jpg" alt="" class="image">
+                <div class="image5"></div>
                 <div class="little">Кроссфит</div>
                 <div class="text">Авторская запатентованная программа тренировки, включающая элементы тяжелой атлетики, занятий с гирями, гимнастики. Данная программа безупречно подходит для ежедневных тренировок людям с сидячим образом жизни. Преимущество кроссфита в том, что он одинаково хорошо воспринимается и мужчинами, и женщинами и подходит для семейных групповых тренировок. Высокая эффективности программы обусловлена чуткими рекомендациями наших сертифицированных тренеров.</div>
             </li>
             <li class="lists">
-                <img src="swim.jpg" class="image">
+                <div class="image6"></div>
                 <div class="little">Бассейн</div>
                 <div class="text">Большой 50 метровый бассейн, разделенный на 6 дорожек, позволит заниматься индивидуальным плаванием или аквааэробикой. Занятия проводит сертифицированный тренер – Ситник Ирина Валерьевна, известная своими успехами в школе подготовки олимпийского резерва. В бассейне есть место для занятий с детьми (ежедневно с 12-00 до 14-00), а также проводится аквааэробика для беременных каждый день в 10-00 и 19-00.</div>
             </li>
         </ul>
+        <h2>ПАРТНЕРЫ</h2>
+        <div class="photos_block">
+            <ul class="block_img">
+                <li class="img_block">
+                    <img src="logo2.png" alt="" class="photos_img">
+                </li>
+                <li class="img_block">
+                    <img src="logo1.png" alt="" class="photos_img">
+                </li>
+                <li class="img_block">
+                    <img src="logo3.png" alt="" class="photos_img3">
+                </li>
+                <li class="img_block">
+                    <img src="logo4.png" alt="" class="photos_img4">
+                </li>
+                <li class="img_block">
+                    <img src="logo5.png" alt="" class="photos_img2">
+                </li>
+                <li class="img_block">
+                    <img src="logo6.png" alt="" class="photos_img2">
+                </li>
+            </ul>
+        </div>
+        
     </div>
+    <header class="header2">
+    
+        <div class="main2 flex2">
+            <div class="logo">
+                <div class="texts"> 
+                    <p> Сделано с любовью и старанием</p>
+                    <p>на курсе «HTML + CSS».</p>
+                    Автор работы: <b> Прохладов Вадим</b></div>
+            </div>
+            <div class="logo">
+                <a href="" class="logo__link">Афродита</a>
+            </div>
+           
+         <ul class="fleximage">
+            <li class="imgflex">
+              <div class="flexhref">
+                <href class="a"></href>
+              </div>
+            </li>
+            <li class="imgflex">
+             <div class="flexhref">
+                <href class="a2"></href>
+              </div>
+            </li>
+            <li class="imgflex">
+                <div class="flexhref">
+                    <href class="a3"></href>
+                </div>
+            </li>
+            <li class="imgflex">
+                <div class="flexhref">
+                    <href class="a4"></href>
+                </div>
+            </li>
+            <li class="imgflex">
+                <div class="flexhref">
+                    <href class="a5"></href>
+                </div>
+            </li>
+            
+         </ul>
+       
+        </div>
+       </header>
+
 </body>
 </html>
